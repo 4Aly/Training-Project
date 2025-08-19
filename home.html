@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery in Your City</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="name"></h1>
+        <nav>
+          <a href="home.html">Home</a>
+          <a href="about.html">About Us</a>
+          <div class="auth-buttons">
+            <a href="signin.html" class="btn login-btn">Log In</a>
+            <a href="signup.html" class="btn register-btn">Register</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="home-slider">
+        <div class="slider-container">
+          <div
+            class="slide active"
+            style="background-image: url('homebg.png')"
+          ></div>
+          <div class="slide" style="background-image: url('homebg2.jpg')"></div>
+          <div class="slide" style="background-image: url('homebg3.jpg')"></div>
+          <button class="slider-btn prev-btn">&lt;</button>
+          <button class="slider-btn next-btn">&gt;</button>
+          <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+        </div>
+        <div class="home-content container">
+          <h2>Food delivered to your door</h2>
+          <p>Order from your favorite restaurants in your city</p>
+          <div class="search-bar">
+            <input type="text" placeholder="Enter your delivery address..." />
+            <button>Find Food</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="restaurants container" id="restaurants">
+        <h2>Popular Restaurants</h2>
+
+        <!-- <div class="restaurant-grid">
+          <div class="restaurant-card">
+            <div class="restaurant-img">
+              <img src="willys.webp" alt="Willy's Kitchen" />
+            </div>
+            <div class="restaurant-info">
+              <h3>Willy's Kitchen</h3>
+              <p>
+                Your go-to spot for fast and healthy Mediterranean food.
+                Specializing in delicious sandwiches.
+              </p>
+              <div class="restaurant-footer">
+                <span class="rating">4.8 ★</span>
+                <span class="delivery-time">25-35 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="restaurant-img">
+              <img src="papajohns.jpeg" alt="Papa Johns" />
+            </div>
+            <div class="restaurant-info">
+              <h3>Papa Johns</h3>
+              <p>
+                Enjoy the ease of ordering delicious pizza for delivery or
+                carryout from a Papa Johns near you.
+              </p>
+              <div class="restaurant-footer">
+                <span class="rating">4.7 ★</span>
+                <span class="delivery-time">30-45 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="restaurant-img">
+              <img src="kfc.jpg" alt="KFC" />
+            </div>
+            <div class="restaurant-info">
+              <h3>KFC</h3>
+              <p>
+                Order great tasting fried chicken, sandwiches & family meals
+                online with KFC.
+              </p>
+              <div class="restaurant-footer">
+                <span class="rating">3.8 ★</span>
+                <span class="delivery-time">20-30 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="restaurant-img">
+              <img src="dolato.png" alt="Dolato" />
+            </div>
+            <div class="restaurant-info">
+              <h3>Dolato</h3>
+              <p>
+                Explore Dolato's menu featuring authentic Italian gelato and
+                other delightful treats.
+              </p>
+              <div class="restaurant-footer">
+                <span class="rating">4.9 ★</span>
+                <span class="delivery-time">15-25 min</span>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p class="footer"></p>
+        <a href="admin.html">Admin Panel</a>
+      </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

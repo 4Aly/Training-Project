@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="new-restaurant.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1 class="logo">Admin Panel</h1>
+        <nav>
+          <div class="buttons">
+            <a href="home.html" class="btn login-btn">User View</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="back">
+        <a href="admin.html" class="btn">Back to Admin Panel</a>
+      </div>
+
+      <div class="change-name">
+        <h2>Add new Restaurant</h2>
+        <input class="name" id="restName" type="text" placeholder="Name" />
+        <input
+          class="description"
+          id="restDesc"
+          type="text"
+          placeholder="Description"
+        />
+        <input
+          class="rating"
+          id="restRating"
+          type="text"
+          placeholder="Rating"
+        />
+        <input
+          class="delivery-time"
+          id="restTime"
+          type="text"
+          placeholder="Delivery Time"
+        />
+        <input class="image" id="restImg" type="text" placeholder="Image URL" />
+        <a href="#" class="btn" onclick="addRestaurant()">Add Restaurant</a>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
