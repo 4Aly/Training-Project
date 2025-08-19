@@ -226,7 +226,7 @@ if (form) {
       }
       if (password.match(passPattern)) {
         alert("Account created successfully!");
-        window.location.href = "home.html";
+        window.location.href = "index.html";
       }
     });
 }
@@ -267,7 +267,7 @@ function login() {
   }
 
   if (valid) {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   }
 }
 
